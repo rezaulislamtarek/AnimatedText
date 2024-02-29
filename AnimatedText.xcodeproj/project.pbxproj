@@ -11,6 +11,7 @@
 		0BE556552B8F0F2F007B13E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE556542B8F0F2F007B13E3 /* ContentView.swift */; };
 		0BE556572B8F0F30007B13E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BE556562B8F0F30007B13E3 /* Assets.xcassets */; };
 		0BE5565A2B8F0F30007B13E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BE556592B8F0F30007B13E3 /* Preview Assets.xcassets */; };
+		0BE556612B8F0F55007B13E3 /* MovingLightText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE556602B8F0F55007B13E3 /* MovingLightText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		0BE556542B8F0F2F007B13E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0BE556562B8F0F30007B13E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BE556592B8F0F30007B13E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0BE556602B8F0F55007B13E3 /* MovingLightText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingLightText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				0BE556542B8F0F2F007B13E3 /* ContentView.swift */,
 				0BE556562B8F0F30007B13E3 /* Assets.xcassets */,
 				0BE556582B8F0F30007B13E3 /* Preview Content */,
+				0BE556602B8F0F55007B13E3 /* MovingLightText.swift */,
 			);
 			path = AnimatedText;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BE556552B8F0F2F007B13E3 /* ContentView.swift in Sources */,
+				0BE556612B8F0F55007B13E3 /* MovingLightText.swift in Sources */,
 				0BE556532B8F0F2F007B13E3 /* AnimatedTextApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +284,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +314,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
